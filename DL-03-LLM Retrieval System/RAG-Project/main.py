@@ -37,7 +37,7 @@ def main():
       #  print("Please run lab01_extract_text.py -> lab04_create_vector_db.py first.")
         return
 
-    print("-RAG System for Sexual Health & Education QA ---")
+    print("-RAG System for Deep Learning & Large Language Models QA ---")
     print("-Enter ('exit', 'quit', or 'q' to quit)---\n")
 
 
@@ -48,10 +48,10 @@ def main():
     )
 
     while True:
-        query = input("\nHi Bro! 😎\nAsk me anything: ").strip()
+        query = input("\nสวัสดีครับ! 😎\nถามเรื่อง Deep Learning หรือ LLM ได้เลยครับ: ").strip()
 
         if query.lower() in ("exit", "quit", "q"):
-            print("---- ขอบใจหลายๆ เด้อ !!! ------.")
+            print("---- ขอบคุณครับ! โชคดีกับการเรียน Deep Learning นะครับ 😎 ------.")
             break
 
         if not query:

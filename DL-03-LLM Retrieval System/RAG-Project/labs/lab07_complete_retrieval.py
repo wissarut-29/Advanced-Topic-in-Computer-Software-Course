@@ -22,10 +22,10 @@ from src.retriever import Retriever
 # Questions for testing the retrieval system 
 # (covering multiple categories in the data) 
 SAMPLE_QUERIES = [
-    "ถุงยางอนามัยแตกต้องทำยังไง",
-    "PrEP กับ PEP ต่างกันยังไง",
-    "ควรตรวจโรคติดต่อทางเพศสัมพันธ์บ่อยแค่ไหน",
-    "ความยินยอมในเรื่องเพศคืออะไร",
+    "RAG ย่อมาจากอะไร และช่วยแก้ปัญหาอะไรบ้าง",
+    "Transformer ทำงานต่างจาก RNN อย่างไร",
+    "Fine-tuning กับ RAG มีความแตกต่างกันอย่างไร",
+    "Parameter ใน LLM คืออะไร",
 ]
 
 def main():
