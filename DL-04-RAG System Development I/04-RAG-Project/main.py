@@ -40,19 +40,19 @@ def main():
     index_meta.warn_if_stale()
 
     print("--" * 30)
-    print("Sexual Health Question Answering System")
+    print("Deep Learning & Large Language Models QA System")
     print("--" * 30)
 
     rag = RAGPipeline()
     #rag.show_settings()
 
-    print("\nHi Bro! 😎\nAsk me anything")
+    print("\nสวัสดีครับ! 😎\nถามเรื่อง Deep Learning หรือ LLM ได้เลยครับ:")
 
     while True:
         question = input("\nQ: ").strip()
 
         if question in ("exit", "quit", "q"):
-            print("ขอบใจหลายๆ เด้อ !!!")
+            print("---- ขอบคุณครับ! โชคดีกับการเรียน Deep Learning นะครับ 😎 ------.")
             break
 
         if not question:

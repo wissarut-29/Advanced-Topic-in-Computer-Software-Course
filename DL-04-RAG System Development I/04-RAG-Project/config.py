@@ -32,7 +32,7 @@ VECTOR_DB_DIR = os.path.join(BASE_DIR, "vector_db")
 
 
 # clack python build_index.py
-SOURCE_FILE = os.path.join(DATA_DIR, "sex_q_a.txt")
+SOURCE_FILE = os.path.join(DATA_DIR, "deep_learning_llm_q_a.txt")
 GOLDEN_SET_FILE = os.path.join(DATA_DIR, "golden_set.json")
 
 # ผลลัพธ์ระหว่างทางจาก build_index.py
@@ -86,7 +86,7 @@ NO_CONTEXT_MESSAGE = "ขออภัย ไม่พบข้อมูลที
 DISCLAIMER = "หมายเหตุ: ข้อมูลนี้ใช้เพื่อการศึกษาเท่านั้น"
 
 EVAL_K_VALUES = [1, 3, 5, 10]
-GOLDEN_SET_SIZE = 60
+GOLDEN_SET_SIZE = 20
 
 
 # create output directories if they don't exist
