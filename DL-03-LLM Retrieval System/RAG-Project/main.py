@@ -26,8 +26,8 @@ from src.retriever import Retriever
 
 def print_answer(rank, item):
     print(f"\nResult {rank} (Score: {item['score']:.2f})")
-    #print(f"Category: {item['category']}")
-    #print(f"Similar Question: {item['question']}")
+    print(f"Category: {item['category']}")
+    print(f"Similar Question: {item['question']}")
     print(f"Answer: {item['answer']}")
 
 
@@ -57,8 +57,7 @@ def main():
         if not query:
             continue
 
-        #results = retriever.retrieve(query, top_k=config.TOP_K)
-        results = retriever.retrieve(query, top_k=1)
+        results = retriever.retrieve(query, top_k=config.TOP_K)
 
         if not results:
             print("No relevant answer found in the knowledge base.")
